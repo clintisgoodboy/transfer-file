@@ -1,0 +1,61 @@
+{
+  // 主题
+  "workbench.colorTheme": "Dracula Soft",
+  // 文件图标主题
+  "workbench.iconTheme": "material-icon-theme",
+  // 禁止从文件中读取tab大小
+  "editor.detectIndentation": false,
+  // tab 大小
+  "editor.tabSize": 2,
+  // 保存自动格式化
+  "editor.formatOnSave": false,
+  // 自动保存
+  "files.autoSave": "onFocusChange",
+  // 自动保存间隔ms,files.autoSave 为 afterDelay 才生效
+  "files.autoSaveDelay": 1000,
+  // 编辑器将在视区宽度换行
+  "editor.wordWrap": "on",
+  // 按下tab的时候进行补全
+  "editor.tabCompletion": "on",
+  // 设置编辑器的默认格式化程序
+  "editor.defaultFormatter": "HookyQR.beautify",
+  // 在保存时候运行的代码操作类型
+  "editor.codeActionsOnSave": {
+    // 保存时整理 import 导入语句
+    "source.organizeImports": true,
+    // 保存自动eslint 修复
+    "source.fixAll.eslint": true
+  },
+  // 将可能的 Emmet 缩写作为建议进行显示。
+  "emmet.showAbbreviationSuggestions": true,
+  // 以建议的形式显示展开的 Emmet 缩写。
+  "emmet.showExpandedAbbreviation": "always",
+  // 在默认不受支持的语言中启用 Emmet 缩写
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // 在使用搜索功能时，将这些文件夹/文件排除在外
+  "search.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.vscode": true,
+    "**/dist": true
+  },
+  // 这些文件将不会显示在工作空间中
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  // 配置 ESLint 检查的文件类型
+  "eslint.validate": [
+    "javascript",
+    "vue",
+    "html"
+  ],
+}
